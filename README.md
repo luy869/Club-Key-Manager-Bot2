@@ -23,4 +23,4 @@ src内のsetting.jsonが設定ファイルです. setting.json.sampleはサン�
  - ModeConsole : trueかfalseを書きます.falseは部室の鍵用でtrueは操作卓用です.開けました/閉めましたメッセージがあるか無いかが異なります.
  - Slack
      - Use : trueかfalseを書きます.slackにメッセージを送るかどうかが決まります(trueで送信する).
-     - WebhookUrl":"slackのincommingwebhookを使っているのでここにそれのURLを書きます.Useがfalseなら書かなくても大丈夫そう?
+     - WebhookUrl : slackのincommingwebhookを使っているのでここにそれのURLを書きます.Useがfalseなら書かなくても大丈夫そう?
