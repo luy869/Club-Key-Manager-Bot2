@@ -18,12 +18,9 @@ docker上で動かせます. dockerをサーバに入れとくとセットアッ
    
 ## 設定ファイル
 src内のsetting.jsonが設定ファイルです. setting.json.sampleはサンプルファイルです.
-{
-    "LogChannel":"Discordで記録を行うチャンネルのIDを書きます.",
-    "Token":"DiscordBotのトークンをここに書きます",
-    "ModeConsole":"trueかfalseを書きます.falseは部室の鍵用でtrueは操作卓用です.開けました/閉めましたメッセージがあるか無いかが異なります.",
-    "Slack":{
-        "Use":"trueかfalseを書きます.slackにメッセージを送るかどうかが決まります(trueで送信する).",
-        "WebhookUrl":"slackのincommingwebhookを使っているのでここにそれのURLを書きます."
-    }
-}
+ - LogChannel : Discordで記録を行うチャンネルのIDを書きます.
+ - Token : DiscordBotのトークンをここに書きます.
+ - ModeConsole : trueかfalseを書きます.falseは部室の鍵用でtrueは操作卓用です.開けました/閉めましたメッセージがあるか無いかが異なります.
+ - Slack
+     - Use : trueかfalseを書きます.slackにメッセージを送るかどうかが決まります(trueで送信する).
+     - WebhookUrl":"slackのincommingwebhookを使っているのでここにそれのURLを書きます.Useがfalseなら書かなくても大丈夫そう?
