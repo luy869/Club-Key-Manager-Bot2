@@ -1,9 +1,0 @@
-{
-    "LogChannel":"",
-    "Token":"",
-    "ModeConsole":"false",
-    "Slack":{
-        "Use":"false",
-        "WebhookUrl":""
-    }
-}
