@@ -1,0 +1,12 @@
+{
+    "LogChannel": "YOUR_LOG_CHANNEL_ID",
+    "Token": "YOUR_DISCORD_BOT_TOKEN",
+    "ModeConsole": "false",
+    "ReminderTimeMinutes": 180,
+    "checkHour": 20,
+    "checkMinute": 0,
+    "Slack": {
+        "Use": "false",
+        "WebhookUrl": ""
+    }
+}
